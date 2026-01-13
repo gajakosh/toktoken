@@ -78,3 +78,10 @@ summary that focuses only on key insights.
 text_squasher = TextSquasher(lossy=False)
 compressed_text = text_squasher.squash(long_prompt)
 print(compressed_text)
+
+
+## Example Output (Lossless):
+Summarize report: detailed metrics on user engagement including DAU, session times, CTR, retention. Generate concise summary of key insights.
+
+## Example Output (Lossy):
+Summarize report: metrics on engagement, DAU, CTR, retention. Summary of insights.
